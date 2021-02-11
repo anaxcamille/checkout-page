@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.checkout{
+	position: absolute;
+	width: 383px;
+	height: 535px;
+	left: 817px;
+	top: 170px;
+	background: #F2F2F2;
+	border-radius: 12px;
+}
+.outerbag{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 50px 50px;
+}
+.vintage{
+margin: 0px 0px 20px 0px;
+width: 162.52px;
+height: 22.21px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #4E5150;
+}
+.vintagediv{
+	display:flex;
+	flex-direction: row;
+}
+.photo1{
+margin: 50px 20px 20px 50px;
+}
+.photo2{
+	margin: 0px 20px 50px 50px;
+}
+.photo1,.photo2{
+	float: left;
+	width: 150.7px;
+	height: 155.91px;
+	border-radius:10%;
+}
+.newp{
+width: 82.77px;
+height: 29.27px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #F2994A;
+}
+.oldp{
+	text-decoration: line-through;
+	width: 49.46px;
+	height: 17.16px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	color: #4E5150;
+}
+.quantitydiv{
+display:flex;
+width: 134.25px;
+height: 52px;
+border: 1px solid #828282;
+border-radius: 12px;
+padding-top: 12px;
+justify-content:center;
+}
+.number{
+width: 7.07px;
+height: 20.19px;
+left: 1066.77px;
+top: 302.44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+margin: 0px 10px 0px 10px;
+}
+.subtract,.addition{
+color:#828282;
+width: 21.2px;
+height: 21.2px;
+background: #E0E0E0;
+border:none;
+font-size: 20px;
+border-radius: 4px;
+}
+.check{
+	position: absolute;
+	width: 180px;
+	height: 44px;
+	left: 240px;
+	top: 64.06px;
+
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 44px;
+}
+.contact{
+	width: 201px;
+	height: 22px;
+	left: 239px;
+	top: 159.06px;
+}
+.shipping{
+	width: 162px;
+	height: 22px;
+	left: 240px;
+	top: 430.06px;
+}
+.contact,.shipping{
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+	transform: rotate(-0.02deg);
+}
+.email{
+width: 40px;
+height: 15px;
+left: 241px;
+top: 196.03px;
+}
+.phone{
+	width: 41px;
+	height: 15px;
+	left: 241px;
+	top: 294.03px;
+}
+.emailbox{
+	left: 240px;
+	top: 218px;
+}
+.phonebox{
+	left: 240px;
+top: 315.99px;
+}
+.name{
+	width: 62px;
+	height: 15px;
+	left: 240px;
+	top: 467.02px;
+}
+.namebox{
+	width: 465px;
+	height: 56px;
+	left: 239px;
+	top: 488.99px;
+}
+.address{
+	width: 51px;
+	height: 15px;
+	left: 240px;
+	top: 565.02px;
+}
+.addressbox{
+	width: 465px;
+	height: 56px;
+	left: 239px;
+	top: 586.99px;
+}
+.city{
+	width: 25px;
+	height: 15px;
+	left: 240px;
+	top: 656.02px
+}
+.citybox{
+	width: 465px;
+	height: 56px;
+	left: 239px;
+	top: 677.99px;
+}
+.country{
+	width: 50px;
+	height: 15px;
+	left: 240px;
+	top: 747.02px;
+}
+.countrybox{
+	height: 56px;
+	left: 239px;
+	top: 769.01px;
+}
+.postal{
+	width: 72px;
+	height: 15px;
+	left: 488px;
+	top: 747.01px;
+}
+.postalbox{
+	width: 217px;
+	height: 56px;
+	left: 487px;
+	top: 769px;
+}
+.savebox{
+position: absolute;
+width: 21px;
+height: 21px;
+left: 240px;
+top: 845px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 4px;
+}
+span{
+position: absolute;
+width: 215px;
+height: 15px;
+left: 272px;
+top: 848px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #4F4F4F;
+transform: rotate(-0.02deg);
+}
+.submit{
+	color: #FFFFFF;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	position: absolute;
+	width: 166px;
+	height: 54px;
+	left: 539px;
+	top: 886px;
+	border:none;
+	background: #F2994A;
+	border-radius: 12px;
+}
+.email,.phone,.name,.address,.city,.country,.postal{
+	color: #4F4F4F;
+	transform: rotate(-0.02deg);
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+}
+select{
+	position: absolute;
+	width: 217px;
+	height: 56px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+input{
+	position: absolute;
+	width: 465px;
+	height: 56px;
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 12px;
+}

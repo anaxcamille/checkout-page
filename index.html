@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<div class="container">
+		<div class="checkout">
+			<img src="photo1.png" class="photo1">
+			<div class="outerbag">
+				<p class="vintage">Vintage Bag</p>
+				<div class="vintagediv">
+				<p class="newp">$ 54.99</p>
+				<p class="oldp">$ 94.99</p>
+				</div>
+				<div class="quantitydiv">
+					<button class="subtract">-</button>
+					<p class="number">1</p>
+					<button class="addition">+</button>
+				</div>
+			</div>
+			<img src="photo2.png" class="photo2">
+			<div class="outerbag">
+				<p class="vintage">Vintage Bag</p>
+				<div class="vintagediv">
+				<p class="newp">$ 54.99</p>
+				<p class="oldp">$ 94.99</p>
+				</div>
+				<div class="quantitydiv">
+					<button class="subtract">-</button>
+					<p class="number">1</p>
+					<button class="addition">+</button>
+				</div>
+			</div>
+		</div>
+			<h1 class ="check">Checkout</h1>
+			<div class="info">
+				<h3 class="contact">Contact information</h3>
+				<p class="email">Email</p>
+				<input class="emailbox "type="email" >
+				<p class="phone">Phone</p>
+				<input class="phonebox" type="tel" >
+			</div>
+			<div class="ship">
+				<h3 class="shipping">Shipping Address</h3>
+				<p class="name">Full name</p>
+				<input class="namebox"type="text" >
+				<p class="address">Address</p>
+				<input class="addressbox" type="text" >
+				<p class="city">City</p>
+				<input class="citybox" type="text" >
+				<p class="country">Country</p>
+				<select id="country" name="country" class="countrybox">
+					<option value="Your country"></option>
+					<option value="Afghanistan">Afghanistan</option>
+					<option value="Åland Islands">Åland Islands</option>
+					<option value="Albania">Albania</option>
+					<option value="Algeria">Algeria</option>
+					<option value="American Samoa">American Samoa</option>
+				</select>
+				<p class="postal">Postal code</p>
+				<input class="postalbox" input type="text" pattern="^\s*?\d{5}(?:[-\s]\d{4})?\s*?$" title="Five digit zip code">
+				<input type="checkbox" class="savebox"><span>Save this information for next time</span>
+				<button class="submit">Continue</button>
+			</div>
+		</div>
+	</body>
+</html>
